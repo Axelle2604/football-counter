@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function ResetButton(props) {
-  return (
-    <div className="resetButton">
-      <button onClick={props.resetFunction}>RESET</button>
-    </div>
-  );
-}
+const ResetButton = props => (
+  <div className="ResetButton">
+    <button onClick={props.resetFunction}>RESET</button>
+  </div>
+);
 
 export default ResetButton;

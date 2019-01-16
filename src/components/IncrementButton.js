@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function IncrementButton(props) {
-  return (
-    <div className="IncrementButton">
-      <button onClick={props.incrementFunction}>{props.buttonName}</button>
-    </div>
-  );
-}
+const IncrementButton = props => (
+  <div className="IncrementButton">
+    <button onClick={props.incrementFunction}>{props.buttonName}</button>
+  </div>
+);
 
 export default IncrementButton;

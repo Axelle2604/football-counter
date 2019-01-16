@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-function Score(props) {
-  return (
-    <div className="score">
-      <div>{props.score}</div>
-    </div>
-  );
-}
+const Score = props => (
+  <div className="score">
+    <div>{props.score}</div>
+  </div>
+);
 
 export default Score;
